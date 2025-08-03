@@ -110,13 +110,13 @@
                         <div class="d-flex justify-content-between align-items-center p-2 bg-light rounded">
                             <strong>Total Item Terjual:</strong>
                             <span>
-                                {% set total_items = 0 %}
+                                {% set ns = namespace(total_items=0) %}
                                 {% for transaction in transactions %}
                                     {% for item in transaction['items'] %}
-                                        {% set total_items = total_items + item['quantity'] %}
+                                        {% set ns.total_items = ns.total_items + item['quantity'] %}
                                     {% endfor %}
                                 {% endfor %}
-                                {{ total_items }} unit
+                                {{ ns.total_items }} unit
                             </span>
                         </div>
                     </div>
