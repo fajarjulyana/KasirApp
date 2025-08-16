@@ -22,7 +22,6 @@ Dilengkapi dengan fitur **login admin/kasir**, **keranjang belanja**, **pencetak
    ```bash
    git clone https://github.com/username/aplikasi-kasir.git
    cd aplikasi-kasir
-````
 
 2. **Buat virtual environment & aktifkan**
 
