@@ -11,12 +11,18 @@ Dilengkapi dengan fitur **login admin/kasir**, **keranjang belanja**, **pencetak
 - **Stok Awal Dapat Diubah**: Saat edit item, stok awal bisa diatur ulang.
 - **Preview & Download Kode Barang**: Lihat kode barang dalam bentuk QR dan unduh.
 
+## 🖼️ Screenshot
+
+| Dashboard Admin | Home Aplikasi | Menu Kasir |
+|-----------------|---------------|------------|
+| ![Dashboard Admin](capture/dashboard-admin.PNG) | ![Home Aplikasi](capture/homeapp.PNG) | ![Menu Kasir](capture/menu-kasir.PNG) |
+
 ## 🛠️ Instalasi
 1. **Clone repository**
    ```bash
    git clone https://github.com/username/aplikasi-kasir.git
    cd aplikasi-kasir
-
+````
 
 2. **Buat virtual environment & aktifkan**
 
@@ -50,6 +56,7 @@ aplikasi-kasir/
 │── database.db          # Database SQLite
 │── requirements.txt     # List library Python
 │── README.md            # Dokumentasi
+│── LICENSE              # Lisensi MIT
 ```
 
 ## 🔄 Changelog
@@ -70,6 +77,10 @@ aplikasi-kasir/
 * Rilis awal aplikasi kasir.
 * Fitur login, tambah/edit barang, keranjang belanja.
 
+## 👤 Pemilik & Pembuat
+
+**Fajar Julyana**
+
 ## 📜 Lisensi
 
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
+Proyek ini dilisensikan di bawah **[MIT License](LICENSE)**.
